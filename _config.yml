@@ -1,2 +1,2 @@
-basurl: /test
+basurl: /myTest
 exclude: ['README.md']
