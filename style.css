@@ -8,7 +8,9 @@
 	height: 600px;
 	margin: 0px auto;
 	position: relative;
-	border: 1px solid black;
+	background-color: rgb(235, 235, 235);
+	border-right: 1px dotted red;
+	border-left: 1px dotted red;
 }
 
 .inner {
