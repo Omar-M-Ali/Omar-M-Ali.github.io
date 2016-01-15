@@ -9,3 +9,8 @@ body{
 	font-family: Arial;
 	background-color: white;
 }
+
+ul .current {
+	color: white;
+	background-color: #000;
+}
