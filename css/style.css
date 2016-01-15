@@ -3,14 +3,46 @@
 	padding: 0px;
 }
 
-body{
-	color: red;
-	font-weight: 600;
-	font-family: Arial;
-	background-color: white;
+body {
+	background-color: rgb(210, 210, 210);
 }
 
-ul .current {
+#wrapper {
+	width: 1200px;
+	height: 1200px;
+	margin: 0px auto;
+}
+
+#nav {
+	width: 20%;
+	height: inherit;
+	background-color: darkgray;
+	float: left;
+}
+
+#main {
+	width: 80%;
+	height: inherit;
+	background-color: white;
+	float: right;
+}
+
+footer {
+	width: 1200px;
+	height: 120px;
+	margin: 0px auto;
+	position: relative;
+	background-color: gray;
+}
+
+#copyright {
+	width: 200px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
 	color: white;
-	background-color: #000;
+	font-family: Arial;
+	font-size: 10px;
+	text-align: center;
 }
