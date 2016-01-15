@@ -1,0 +1,2 @@
+basurl: /test
+exclude: ['README.md']
