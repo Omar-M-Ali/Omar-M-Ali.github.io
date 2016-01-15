@@ -22,4 +22,7 @@
 	transform: translate(-50%, -50%);
 	border-top: 1px dotted red;
 	border-bottom: 1px dotted red;
+	text-align: center;
+	font-size: 3em;
+	font-weight: 600;
 }
