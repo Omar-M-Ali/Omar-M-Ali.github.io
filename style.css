@@ -1,0 +1,11 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	color: red;
+	font-weight: 600;
+	font-family: Arial;
+	background-color: #000;
+}
