@@ -7,14 +7,11 @@
 	align-items: center;
 }
 
-.headbar span {
-	font-family: libertadextrabold_italic;
-	font-size: 36px;
-	font-weight: 700;
-}
-
-.myred {
-	color: #f0050a;
+.logo {
+	width: 173.6px;
+	height: 33.33px;
+	background-image: url('/assets/img/logo.svg');
+	background-repeat: no-repeat;
 }
 
 .headbar li {
