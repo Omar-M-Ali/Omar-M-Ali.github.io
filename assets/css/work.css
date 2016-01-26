@@ -99,3 +99,33 @@
 	font-size: 18px;
 	color: white;
 }
+
+#lightbox {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.98);
+	position: fixed;
+	display: none;
+	top: 0;
+	left: 0;
+}
+
+/*.close {
+	font-family: libertadbook;
+	color: white;
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin: 20px 20px 0 0;
+}*/
+
+.limage img {
+	max-width: 90%;
+	max-height: 90%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0 auto;
+	background-color: white;
+}
