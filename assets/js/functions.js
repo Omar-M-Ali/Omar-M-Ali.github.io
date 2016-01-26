@@ -1,22 +1,63 @@
 $(document).ready(function() {
 
-	$('.sora1').click(function() {
-		$('.limage').html("<img src='/assets/img/asterBIG.jpg'>")
-		$('#lightbox').fadeToggle(500);
+	$('.swap1').click(function() {
+		$('.limage').html("<img src='/assets/img/asterBIG.jpg'>");
+		$('#lightbox').fadeToggle(400);
 	});
 
-	$('.sora2').click(function() {
-		$('.limage').html("<img src='/assets/img/robosBIG.jpg'>")
-		$('#lightbox').fadeToggle(500);
+	$(".swap1").hover(function() {
+	    $(this).find('.sora1').toggle(0);
+	    $(this).find('.soraBW').toggle(0);
+	}, function() {
+	    $(this).find('.sora1').toggle(0);
+	    $(this).find('.soraBW').toggle(0);
+		}
+	);
+
+	$('.swap4').click(function() {
+		$('.limage').html("<img src='/assets/img/robosBIG.jpg'>");
+		$('#lightbox').fadeToggle(400);
 	});
 
-	$('.sora3').click(function() {
-		$('.limage').html("<img src='/assets/img/wiresBIG.jpg'>")
-		$('#lightbox').fadeToggle(500);
+	$(".swap4").hover(function() {
+	    $(this).find('.sora4').toggle(0);
+	    $(this).find('.soraBW').toggle(0);
+	}, function() {
+	    $(this).find('.sora4').toggle(0);
+	    $(this).find('.soraBW').toggle(0);
+		}
+	);
+
+	$('.swap3').click(function() {
+		$('.limage').html("<img src='/assets/img/wiresBIG.jpg'>");
+		$('#lightbox').fadeToggle(400);
 	});
+
+	$(".swap3").hover(function() {
+	    $(this).find('.sora3').toggle(0);
+	    $(this).find('.soraBW').toggle(0);
+	}, function() {
+	    $(this).find('.sora3').toggle(0);
+	    $(this).find('.soraBW').toggle(0);
+		}
+	);
+
+	$('.swap2').click(function() {
+		$('.limage').html("<img src='/assets/img/lokalBIG.jpg'>");
+		$('#lightbox').fadeToggle(400);
+	});
+
+	$(".swap2").hover(function() {
+	    $(this).find('.sora2').toggle(0);
+	    $(this).find('.soraBW').toggle(0);
+	}, function() {
+	    $(this).find('.sora2').toggle(0);
+	    $(this).find('.soraBW').toggle(0);
+		}
+	);
 
 	$('#lightbox').click(function() {
-		$('#lightbox').fadeToggle(500);
+		$('#lightbox').fadeToggle(400);
 	});
 
 });

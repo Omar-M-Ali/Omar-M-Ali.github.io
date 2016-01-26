@@ -21,6 +21,18 @@
 	margin-left: 30px;
 }
 
+.navnormal {
+	color: #1c1c1c;
+}
+
+.navnormal:visited {
+	color: #1c1c1c;
+}
+
+.navnormal:hover {
+	color: #f0050a;
+}
+
 .emailme {
 	color: #f0050a;
 }

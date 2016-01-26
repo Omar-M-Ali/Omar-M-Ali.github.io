@@ -25,7 +25,8 @@
 
 .cta:hover {
 	color: white;
-	background-color: #f2282d;
+	/*background-color: #f2282d;*/
+	background-color: #1c1c1c;
 }
 
 .cta:visited {
