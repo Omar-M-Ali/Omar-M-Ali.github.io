@@ -25,6 +25,13 @@
 	background-repeat: no-repeat;
 }
 
+.sora1:hover {
+	min-width: 620px;
+	min-height: 244px;
+	background-image: url('/assets/img/aster2.jpg');
+	background-repeat: no-repeat;
+}
+
 .sora2 {
 	min-width: 620px;
 	min-height: 264px;
@@ -32,10 +39,24 @@
 	background-repeat: no-repeat;
 }
 
+.sora2:hover {
+	min-width: 620px;
+	min-height: 264px;
+	background-image: url('/assets/img/robos2.jpg');
+	background-repeat: no-repeat;
+}
+
 .sora3 {
 	min-width: 620px;
 	min-height: 264px;
 	background-image: url('/assets/img/wires.jpg');
+	background-repeat: no-repeat;
+}
+
+.sora3:hover {
+	min-width: 620px;
+	min-height: 264px;
+	background-image: url('/assets/img/wires2.jpg');
 	background-repeat: no-repeat;
 }
 
@@ -60,11 +81,17 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-
-.button p {
 	font-family: libertadbold;
 	font-size: 18px;
+	color: white;
+}
+
+.button:hover {
+	background-color: #f2282d;
+	color: white;
+}
+
+.button:visited {
 	color: white;
 }
 
