@@ -1,7 +1,7 @@
 .headbar header {
 	width: 100%;
 	height: 120px;
-	border-bottom: 1px solid black;
+	border-bottom: 1px dotted #1c1c1c;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -15,8 +15,16 @@
 }
 
 .headbar li {
-	font-family: libertadmedium;
+	font-family: libertadbook;
 	font-size: 14px;
 	display: inline;
 	margin-left: 30px;
+}
+
+.emailme {
+	color: #f0050a;
+}
+
+.emailme:visited {
+	color: #f0050a;
 }

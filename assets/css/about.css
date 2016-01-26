@@ -1,0 +1,24 @@
+#about {
+	width: 100%;
+	height: 360px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: libertadbook;
+	padding: 0 80px;
+}
+
+.hi {
+	font-family: libertadbook;
+	/*font-size: 1.2em;*/
+}
+
+.underline {
+	font-family: libertadmedium;
+	padding-bottom: 4px;
+	border-bottom: 1px dotted #f0050a;
+}
+
+#about p {
+	line-height: 1.4;
+}

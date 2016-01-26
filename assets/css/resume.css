@@ -1,0 +1,32 @@
+#resume header {
+	width: 100%;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: libertadbold;
+	font-size: 18px;
+	border-top: 1px dotted #1c1c1c;
+	border-bottom: 1px dotted #1c1c1c;
+}
+
+.resumemain {
+	width: 100%;
+	height: 360px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pdf {
+	width: 91.685px;
+	height: 120px;
+	background-image: url('/assets/img/pdf.svg');
+	background-repeat: no-repeat;
+}
+
+.resumemain p {
+	font-family: libertadbook;
+	font-size: 22px;
+	margin-left: 50px;
+}

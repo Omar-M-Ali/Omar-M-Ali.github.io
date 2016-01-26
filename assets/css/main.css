@@ -1,4 +1,8 @@
 @import url("header.css");
+@import url("about.css");
+@import url("work.css");
+@import url("resume.css");
+@import url("contact.css");
 
 @font-face {
     font-family: 'libertadbold';
@@ -10,7 +14,6 @@
          url('/assets/font/libertad-bold-webfont.svg#libertadbold') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
@@ -23,33 +26,6 @@
          url('/assets/font/libertad-book-webfont.svg#libertadbook') format('svg');
     font-weight: normal;
     font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'libertadextrabold_italic';
-    src: url('/assets/font/libertad-extrabolditalic-webfont.eot');
-    src: url('/assets/font/libertad-extrabolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/font/libertad-extrabolditalic-webfont.woff2') format('woff2'),
-         url('/assets/font/libertad-extrabolditalic-webfont.woff') format('woff'),
-         url('/assets/font/libertad-extrabolditalic-webfont.ttf') format('truetype'),
-         url('/assets/font/libertad-extrabolditalic-webfont.svg#libertadextrabold_italic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'libertadlight';
-    src: url('/assets/font/libertad-light-webfont.eot');
-    src: url('/assets/font/libertad-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/font/libertad-light-webfont.woff2') format('woff2'),
-         url('/assets/font/libertad-light-webfont.woff') format('woff'),
-         url('/assets/font/libertad-light-webfont.ttf') format('truetype'),
-         url('/assets/font/libertad-light-webfont.svg#libertadlight') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
 }
 
 @font-face {
@@ -62,7 +38,6 @@
          url('/assets/font/libertad-medium-webfont.svg#libertadmedium') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 * {
@@ -70,8 +45,8 @@
 	padding: 0;
 	box-sizing: border-box;
 	/*font-family: 'Open Sans', sans-serif;*/
-	line-height: 1  ;
-	color: black;
+	line-height: 1;
+	color: #1c1c1c;
 	list-style-type: none;
 }
 
@@ -80,15 +55,16 @@ a:link {
 }
 
 a:visited {
-	color: black;
+	color: #1c1c1c;
 }
 
 a:hover {
-	color: black;
+	color: #1c1c1c;
 }
 
 .wrapper {
-	width: 940px;
+	width: 960px;
 	height: 100vh;
 	margin: 0 auto;
+	padding: 0 10px;
 }
