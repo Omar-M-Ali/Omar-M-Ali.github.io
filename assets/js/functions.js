@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 	$('.swap1').click(function() {
-		$('.limage').html("<img src='/assets/img/asterBIG.jpg'>");
+		$('.limage').html("<iframe src='https://player.vimeo.com/video/29364234?color=f0050a' width='1280' height='720' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>");
 		$('#lightbox').fadeToggle(400);
 	});
 

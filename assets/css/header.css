@@ -1,22 +1,26 @@
 .headbar header {
 	width: 100%;
 	height: 120px;
-	border-bottom: 1px dotted #1c1c1c;
+	/*border-bottom: 1px dotted #1c1c1c;*/
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	/*background-color: white;*/
 }
 
 .logo {
-	width: 173.6px;
-	height: 33.33px;
-	background-image: url('/assets/img/logo.svg');
+	/*width: 173.6px;
+	height: 33.33px;*/
+	width: 60px;
+	height: 60px;
+	background-image: url('/assets/img/logo_new.svg');
 	background-repeat: no-repeat;
 }
 
 .headbar li {
-	font-family: libertadbook;
-	font-size: 14px;
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 13px;
 	display: inline;
 	margin-left: 30px;
 }
@@ -34,7 +38,7 @@
 }
 
 .emailme {
-	color: #f0050a;
+	/*color: #f0050a;*/
 }
 
 .emailme:visited {

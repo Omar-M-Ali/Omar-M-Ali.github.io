@@ -4,10 +4,12 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-family: libertadbold;
-	font-size: 18px;
-	border-top: 1px dotted #1c1c1c;
-	border-bottom: 1px dotted #1c1c1c;
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 16px;
+	/*border-top: 1px dotted #1c1c1c;
+	border-bottom: 1px dotted #1c1c1c;*/
+	display: none;
 }
 
 .workmain {
@@ -43,7 +45,8 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-family: libertadbold;
+	font-family: 'Open Sans';
+	font-weight: 700;
 	font-size: 18px;
 	color: white;
 }
@@ -76,7 +79,7 @@
 	left: 0;
 }
 
-.limage img {
+.limage img, iframe {
 	max-width: 90%;
 	max-height: 90%;
 	position: absolute;
