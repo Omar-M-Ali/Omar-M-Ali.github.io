@@ -1,72 +1,20 @@
-#work header {
-	width: 100%;
-	height: 60px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-family: 'Open Sans';
-	font-weight: 700;
-	font-size: 16px;
-	/*border-top: 1px dotted #1c1c1c;
-	border-bottom: 1px dotted #1c1c1c;*/
-	display: none;
+.work-section {
+	margin-bottom: 60px;
 }
 
-.workmain {
-	padding: 60px 0;
-	border-top: 1px solid rgba(0, 0, 0, 0.2);
-}
-
-.slash {
-	color: #f0050a;
-}
-
-.workitem {
-	display: flex;
-	justify-content: space-between;
-	margin-bottom: 20px;
-}
-
-.workitem img {
-	max-width: 40%x;
-}
-
-.workitem img:hover {
+.work-item {
+	width: 235px;
+	height: 235px;
 	cursor: pointer;
 }
 
-.button {
-	position: relative;
-	left: 50%;
-	transform: translate(-50%);
-	width: 206px;
-	height: 60px;
-	/*border: 1px dotted #1c1c1c;*/
-	background-color: #f0050a;
+.work-section ul {
+	max-width: 940px;
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-family: 'Open Sans';
-	font-weight: 700;
-	font-size: 18px;
-	color: white;
+	flex-wrap: wrap;
 }
 
-.button:hover {
-	background-color: #f2282d;
-	color: white;
-}
-
-.button:visited {
-	color: white;
-}
-
-.button span {
-	font-size: 18px;
-	color: white;
-}
-
-.soraBW {
+.clr {
 	display: none;
 }
 

@@ -25,10 +25,28 @@
 .underline {
 	font-family: 'Open Sans';
 	font-weight: 700;
-	padding-bottom: 4px;
-	/*border-bottom: 1px dotted #f0050a;*/
+	padding-bottom: 3px;
+	/*border-bottom: 1px solid #f0050a;*/
+}
+
+.cv:link {
+	color: #333;
+	font-family: 'Open Sans';
+	font-weight: 700;
+	padding-bottom: 6px;
+	border-bottom: 3px solid transparent;
+	transition: border-bottom-color 0.2s ease-in-out;
+}
+
+.cv:visited {
+	color: #333;
+}
+
+.cv:hover {
+	color: #333;
+	border-bottom-color: #f0050a;
 }
 
 .about p {
-	line-height: 1.4;
+	line-height: 1.8;
 }

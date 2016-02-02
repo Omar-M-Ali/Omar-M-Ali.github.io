@@ -1,6 +1,6 @@
 .headbar {
 	width: 100%;
-	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	/*border-bottom: 1px solid rgba(0, 0, 0, 0.2);*/
 	/*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
 	position: fixed;
 	top: 0;
@@ -35,8 +35,8 @@
 .logo {
 	/*width: 173.6px;
 	height: 33.33px;*/
-	width: 55.2px;
-	height: 60px;
+	width: calc(55.2px * 0.9);
+	height: calc(60px * 0.9);
 	background-image: url('/assets/img/logo_new.svg');
 	background-repeat: no-repeat;
 	/*background-position: center;*/
@@ -58,7 +58,7 @@
 	font-weight: 600;
 	font-size: 12px;
 	padding-bottom: 6px;
-	border-bottom: 2px solid transparent;
+	border-bottom: 3px solid transparent;
 	transition: border-bottom-color 0.2s ease-in-out;
 }
 
@@ -78,7 +78,7 @@
 	justify-content: center;
 	align-items: center;
 	font-family: 'Open Sans';
-	font-weight: 600;
+	font-weight: 700;
 	font-size: 13px;
 	color: white;
 	background-color: #f0050a;
